@@ -1,0 +1,151 @@
+{
+    /// MAIN STUFF ///
+    "RoactCreateElement": {
+        "prefix": "element",
+        "body": "Roact.createElement(${0})",
+        "description": "Shortcut for Roact.createElement"
+    },
+
+    "RoactCreateFragment": {
+        "prefix": "fragment",
+        "body": "Roact.createFragment({\n\t${0}\n})",
+        "description": "Shortcut for Roact.createFragment"
+    },
+
+    "RoactCreateContext": {
+        "prefix": "context",
+        "body": "Roact.createContext(${0})",
+        "description": "Shortcut for Roact.createContext"
+    },
+
+    /// COMPONENT FUNCTION ///
+    "RoactShouldUpdate": {
+        "prefix": "shouldupdate",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:shouldUpdate()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:shouldUpdate() function"
+    },
+
+    "RoactDidMount": {
+        "prefix": "didmount",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:didMount()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:didMount() function"
+    },
+
+    "RoactSetState": {
+        "prefix": "setstate",
+        "body": [
+            "self:setState({\n\t\n})",
+        ],
+        "description": "Shortcut for self:setState({}) function"
+    },
+
+    "RoactWillUnmount": {
+        "prefix": "willunmount",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:willUnmount()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:willUnmount() function"
+    },
+
+    "RoactWillUpdate": {
+        "prefix": "willupdate",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:willUpdate()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:willUpdate() function"
+    },
+
+    "RoactDidUpdate": {
+        "prefix": "didupdate",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:didUpdate()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:didUpdate() function"
+    },
+
+    "RoactComponentInit": {
+        "prefix": "componentinit",
+        "body": [
+            "function ${0:$TM_FILENAME_BASE}:init()",
+            "\t",
+            "end"
+        ],
+        "description": "Shortcut for Component:init() function"
+    },
+
+    /// COMPONENTS ///
+    "RoactFunctionComponent": {
+        "prefix": "rfc",
+        "body": [
+            "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+            "",
+            "local function ${0:$TM_FILENAME_BASE}()",
+            "\t",
+            "end",
+            "",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Function component"
+    },
+
+    "RoactComponent": {
+        "prefix": "rcc",
+        "body": [
+            "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+            "",
+            "local ${0:$TM_FILENAME_BASE} = Roact.Component:extend(\"${0:$TM_FILENAME_BASE}\")",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:render()",
+            "\t",
+            "end",
+            "",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Stateful component"
+    },
+
+    "RoactPureComponent": {
+        "prefix": "rpc",
+        "body": [
+            "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+            "",
+            "local ${0:$TM_FILENAME_BASE} = Roact.PureComponent:extend(\"${0:$TM_FILENAME_BASE}\")",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:render()",
+            "\t",
+            "end",
+            "",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Pure component"
+    },
+
+    "Roact State": {
+        "prefix": "state",
+        "body": "self.state",
+        "description": "Shortcut for self.state"
+    },
+
+    "Roact Props": {
+        "prefix": "props",
+        "body": "self.props",
+        "description": "Shortcut for self.props"
+    }
+}

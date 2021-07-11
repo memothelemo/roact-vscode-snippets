@@ -1,0 +1,147 @@
+{
+    /// FUNCTION COMPONENTS ///
+    "RoactFunctionComponent": {
+        "prefix": "rfc",
+        "body": [
+			"import Roact from \"@rbxts/roact\";",
+			"",
+            "export default function ${0:$TM_FILENAME_BASE}() {",
+            "\treturn <></>;",
+            "}",
+            ""
+		],
+        "description": "Function component"
+    },
+    "RoactFunctionComponentProps": {
+        "prefix": "rfcp",
+        "body": [
+			"import Roact, { PropsWithChildren } from \"@rbxts/roact\";",
+			"",
+            "interface Props {}",
+            "",
+            "export default function ${0:$TM_FILENAME_BASE}(props: PropsWithChildren<Props>) {",
+            "\treturn <></>;",
+            "}",
+            ""
+		],
+        "description": "Function component with props configured"
+    },
+
+    /// COMPONENT (NO PROPS AND STATE) ///
+    "RoactPureComponent": {
+        "prefix": "rpc",
+        "body": [
+            "import Roact, { PureComponent } from \"@rbxts/roact\";",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends PureComponent {",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Pure component"
+    },
+    "RoactComponent": {
+        "prefix": "rcc",
+        "body": [
+            "import Roact, { Component } from \"@rbxts/roact\";",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends Component {",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Stateful component"
+    },
+
+    /// ROACT COMPONENT WITH PROPS ///
+    "RoactComponentProps": {
+        "prefix": "rccp",
+        "body": [
+            "import Roact, { Component } from \"@rbxts/roact\";",
+            "",
+            "interface Props {}",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends Component<Props> {",
+            "\tpublic static validateProps() {",
+            "\t\treturn [true] as unknown as LuaTuple<[boolean, string?]>;",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Stateful component with props configured"
+    },
+    "RoactPureComponentProps": {
+        "prefix": "rpcp",
+        "body": [
+            "import Roact, { PureComponent } from \"@rbxts/roact\";",
+            "",
+            "interface Props {}",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends PureComponent<Props> {",
+            "\tpublic static validateProps() {",
+            "\t\treturn [true] as unknown as LuaTuple<[boolean, string?]>;",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Pure component with props configured"
+    },
+
+    /// ROACT COMPONENT WITH STATE AND PROPS ///
+    "RoactComponentStateProps": {
+        "prefix": "rccsp",
+        "body": [
+            "import Roact, { Component } from \"@rbxts/roact\";",
+            "",
+            "interface Props {}",
+            "",
+            "interface State {}",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends Component<Props, State> {",
+            "\tpublic static validateProps() {",
+            "\t\treturn [true] as unknown as LuaTuple<[boolean, string?]>;",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Stateful component with props and state configured"
+    },
+    "RoactPureComponentStateProps": {
+        "prefix": "rpcsp",
+        "body": [
+            "import Roact, { PureComponent } from \"@rbxts/roact\";",
+            "",
+            "interface Props {}",
+            "",
+            "interface State {}",
+            "",
+            "export default class ${0:$TM_FILENAME_BASE} extends PureComponent<Props, State> {",
+            "\tpublic static validateProps() {",
+            "\t\treturn [true] as unknown as LuaTuple<[boolean, string?]>;",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn <></>;",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "Pure component with props and state configured"
+    }
+}
