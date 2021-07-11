@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.58.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/memothelemo/roact-vscode-snippets"
+    },
     "categories": [
         "Snippets"
     ],
