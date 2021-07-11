@@ -3,9 +3,17 @@
     <h1>Roact Snippets</h1>
 </div>
 
+## About
+
+Snippets for Roact (a ROBLOX library made by ROBLOX itself inspired by React)
+
 ## Warning
 
 If you installed React snippets, please disable it before using this extension otherwise it will overwrite the snippets and can have issues later on.
+
+If you don't mean to install Roact snippets, I think you've spelled React wrong.
+
+This is an experimental extension. I'm too new to VSCode extensions and stuff. If you have suggestions then I will be mostly happy to accept it.
 
 ## Usage
 
@@ -15,9 +23,11 @@ When using Luau:
 
 ---
 
-When using TSX (with roblox-ts):
+When using TSX (with roblox-ts and @rbxts/roact installed):
 
 <img src="assets/gifs/rbxtsx-demonstration.gif" alt="rbxts demonstration" width="500">
+
+---
 
 ## Snippets
 

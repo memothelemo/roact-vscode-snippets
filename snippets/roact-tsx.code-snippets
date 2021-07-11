@@ -1,6 +1,6 @@
 {
     /// FUNCTION COMPONENTS ///
-    "RoactFunctionComponent": {
+    "roactFunctionComponent": {
         "prefix": "rfc",
         "body": [
 			"import Roact from \"@rbxts/roact\";",
@@ -12,7 +12,7 @@
 		],
         "description": "Function component"
     },
-    "RoactFunctionComponentProps": {
+    "roactFunctionComponentProps": {
         "prefix": "rfcp",
         "body": [
 			"import Roact, { PropsWithChildren } from \"@rbxts/roact\";",
@@ -28,7 +28,7 @@
     },
 
     /// COMPONENT (NO PROPS AND STATE) ///
-    "RoactPureComponent": {
+    "roactPureComponent": {
         "prefix": "rpc",
         "body": [
             "import Roact, { PureComponent } from \"@rbxts/roact\";",
@@ -42,7 +42,7 @@
         ],
         "description": "Pure component"
     },
-    "RoactComponent": {
+    "roactComponent": {
         "prefix": "rcc",
         "body": [
             "import Roact, { Component } from \"@rbxts/roact\";",
@@ -58,7 +58,7 @@
     },
 
     /// ROACT COMPONENT WITH PROPS ///
-    "RoactComponentProps": {
+    "roactComponentProps": {
         "prefix": "rccp",
         "body": [
             "import Roact, { Component } from \"@rbxts/roact\";",
@@ -78,7 +78,7 @@
         ],
         "description": "Stateful component with props configured"
     },
-    "RoactPureComponentProps": {
+    "roactPureComponentProps": {
         "prefix": "rpcp",
         "body": [
             "import Roact, { PureComponent } from \"@rbxts/roact\";",
@@ -100,7 +100,7 @@
     },
 
     /// ROACT COMPONENT WITH STATE AND PROPS ///
-    "RoactComponentStateProps": {
+    "roactComponentStateProps": {
         "prefix": "rccsp",
         "body": [
             "import Roact, { Component } from \"@rbxts/roact\";",
@@ -122,7 +122,7 @@
         ],
         "description": "Stateful component with props and state configured"
     },
-    "RoactPureComponentStateProps": {
+    "roactPureComponentStateProps": {
         "prefix": "rpcsp",
         "body": [
             "import Roact, { PureComponent } from \"@rbxts/roact\";",

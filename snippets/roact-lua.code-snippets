@@ -1,25 +1,25 @@
 {
     /// MAIN STUFF ///
-    "RoactCreateElement": {
+    "roactCreateElement": {
         "prefix": "element",
         "body": "Roact.createElement(${0})",
         "description": "Shortcut for Roact.createElement"
     },
 
-    "RoactCreateFragment": {
+    "roactCreateFragment": {
         "prefix": "fragment",
         "body": "Roact.createFragment({\n\t${0}\n})",
         "description": "Shortcut for Roact.createFragment"
     },
 
-    "RoactCreateContext": {
+    "roactCreateContext": {
         "prefix": "context",
         "body": "Roact.createContext(${0})",
         "description": "Shortcut for Roact.createContext"
     },
 
     /// COMPONENT FUNCTION ///
-    "RoactShouldUpdate": {
+    "roactShouldUpdate": {
         "prefix": "shouldupdate",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:shouldUpdate()",
@@ -29,7 +29,7 @@
         "description": "Shortcut for Component:shouldUpdate() function"
     },
 
-    "RoactDidMount": {
+    "roactDidMount": {
         "prefix": "didmount",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:didMount()",
@@ -39,7 +39,7 @@
         "description": "Shortcut for Component:didMount() function"
     },
 
-    "RoactSetState": {
+    "roactSetState": {
         "prefix": "setstate",
         "body": [
             "self:setState({\n\t\n})",
@@ -47,7 +47,7 @@
         "description": "Shortcut for self:setState({}) function"
     },
 
-    "RoactWillUnmount": {
+    "roactWillUnmount": {
         "prefix": "willunmount",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:willUnmount()",
@@ -57,7 +57,7 @@
         "description": "Shortcut for Component:willUnmount() function"
     },
 
-    "RoactWillUpdate": {
+    "roactWillUpdate": {
         "prefix": "willupdate",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:willUpdate()",
@@ -67,7 +67,7 @@
         "description": "Shortcut for Component:willUpdate() function"
     },
 
-    "RoactDidUpdate": {
+    "roactDidUpdate": {
         "prefix": "didupdate",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:didUpdate()",
@@ -77,7 +77,7 @@
         "description": "Shortcut for Component:didUpdate() function"
     },
 
-    "RoactComponentInit": {
+    "roactComponentInit": {
         "prefix": "componentinit",
         "body": [
             "function ${0:$TM_FILENAME_BASE}:init()",
@@ -88,7 +88,7 @@
     },
 
     /// COMPONENTS ///
-    "RoactFunctionComponent": {
+    "roactFunctionComponent": {
         "prefix": "rfc",
         "body": [
             "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
@@ -103,7 +103,7 @@
         "description": "Function component"
     },
 
-    "RoactComponent": {
+    "roactComponent": {
         "prefix": "rcc",
         "body": [
             "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
@@ -120,7 +120,7 @@
         "description": "Stateful component"
     },
 
-    "RoactPureComponent": {
+    "roactPureComponent": {
         "prefix": "rpc",
         "body": [
             "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
@@ -137,13 +137,13 @@
         "description": "Pure component"
     },
 
-    "Roact State": {
+    "roactState": {
         "prefix": "state",
         "body": "self.state",
         "description": "Shortcut for self.state"
     },
 
-    "Roact Props": {
+    "roactProps": {
         "prefix": "props",
         "body": "self.props",
         "description": "Shortcut for self.props"
