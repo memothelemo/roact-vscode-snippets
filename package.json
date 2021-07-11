@@ -2,6 +2,7 @@
     "name": "roact-snippets",
     "displayName": "Roact Snippets",
     "description": "Roact snippets for TSX and Luau",
+    "publisher": "memothelemo",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.58.0"
