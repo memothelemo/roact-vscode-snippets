@@ -1,4 +1,7 @@
-# Roact Snippets
+<div align="center">
+    <img src="assets/logo/index.png" alt="Roact" height="180">
+    <h1>Roact Snippets</h1>
+</div>
 
 ## Warning
 
