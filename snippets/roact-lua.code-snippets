@@ -6,6 +6,12 @@
         "description": "Shortcut for Roact.createElement"
     },
 
+    "roactImport": {
+        "prefix": "roact",
+        "body": "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+        "description": "Shortcut for importing Roact"
+    },
+
     "roactCreateFragment": {
         "prefix": "fragment",
         "body": "Roact.createFragment({\n\t${0}\n})",

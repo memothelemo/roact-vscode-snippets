@@ -6,6 +6,7 @@
 ## About
 
 Snippets for Roact (a ROBLOX library made by ROBLOX itself inspired by React)
+with Rodux snippets provided
 
 ## Warning
 
@@ -43,9 +44,11 @@ Seperated with Lua and TSX
 | `rpc`   | Pure component                                     |
 | `rpcp`  | Pure component with props configured               |
 | `rpcsp` | Pure component with props and state configured     |
+| `rrpc`  | Pure component with Rodux implementation           |
 | `rcc`   | Stateful component                                 |
 | `rccp`  | Stateful component with props configured           |
 | `rccsp` | Stateful component with props and state configured |
+| `rrcc`  | Stateful component with Rodux implementation       |
 
 ---
 
@@ -53,6 +56,7 @@ Seperated with Lua and TSX
 
 | Trigger         | About                                          |
 | --------------- | ---------------------------------------------- |
+| `roact`         | Shortcut for importing Roact                   |
 | `element`       | Shortcut for Roact.createElement               |
 | `fragment`      | Shortcut for Roact.createFragment              |
 | `context`       | Shortcut for Roact.createContext               |
@@ -68,3 +72,7 @@ Seperated with Lua and TSX
 | `rcc`           | Stateful component                             |
 | `rfc`           | Function component                             |
 | `rpc`           | Pure component                                 |
+| `rrcc`          | Stateful component with Rodux implementation   |
+| `rrpc`          | Pure component with Rodux implementation       |
+| `roactrodux`    | Shortcut for importing RoactRodux              |
+| `storeprovider` | Shortcut for RoactRodux.StoreProvider element  |

@@ -1,0 +1,74 @@
+{
+    /// MAIN STUFF ///
+    "roactRoduxComponent": {
+        "prefix": "rrcc",
+        "body": [
+            "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+            "local RoactRodux = require(game:GetService(\"ReplicatedStorage\").RoactRodux)",
+            "",
+            "local ${0:$TM_FILENAME_BASE} = Roact.Component:extend(\"${0:$TM_FILENAME_BASE}\")",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:render()",
+            "\t",
+            "end",
+            "",
+            "local function mapStateToProps(state)",
+            "\treturn {",
+            "\t}",
+            "end",
+            "",
+            "local function mapDispatchToProps(dispatch)",
+            "\treturn {",
+            "\t}",
+            "end",
+            "",
+            "return RoactRodux.connect(mapStateToProps, mapDispatchToProps)(${0:$TM_FILENAME_BASE})",
+            ""
+        ],
+        "description": "Stateful component with Rodux implementation"
+    },
+
+    "roactRoduxPureComponent": {
+        "prefix": "rrpc",
+        "body": [
+            "local Roact = require(game:GetService(\"ReplicatedStorage\").Roact)",
+            "local RoactRodux = require(game:GetService(\"ReplicatedStorage\").RoactRodux)",
+            "",
+            "local ${0:$TM_FILENAME_BASE} = Roact.PureComponent:extend(\"${0:$TM_FILENAME_BASE}\")",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:render()",
+            "\t",
+            "end",
+            "",
+            "local function mapStateToProps(state)",
+            "\treturn {",
+            "\t}",
+            "end",
+            "",
+            "local function mapDispatchToProps(dispatch)",
+            "\treturn {",
+            "\t}",
+            "end",
+            "",
+            "return RoactRodux.connect(mapStateToProps, mapDispatchToProps)(${0:$TM_FILENAME_BASE})",
+            ""
+        ],
+        "description": "Pure component with Rodux implementation"
+    },
+
+    "roactRoduxImport": {
+        "prefix": "roactrodux",
+        "body": "local RoactRodux = require(game:GetService(\"ReplicatedStorage\").RoactRodux)",
+        "description": "Shortcut for importing RoactRodux"
+    },
+
+    "roactStoreProviderElement": {
+        "prefix": "storeprovider",
+        "body": [
+            "Roact.createElement(RoactRodux.StoreProvider, {",
+            "\tstore = ${0}",
+            "})"
+        ],
+        "description": "Shortcut for RoactRodux.StoreProvider element"
+    }
+}

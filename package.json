@@ -24,6 +24,14 @@
             {
                 "language": "lua",
                 "path": "./snippets/roact-lua.code-snippets"
+            },
+            {
+                "language": "lua",
+                "path": "./snippets/roact-rodux-lua.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/roact-rodux-tsx.code-snippets"
             }
         ]
     }
