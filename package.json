@@ -4,7 +4,7 @@
     "description": "Roact snippets for TSX and Luau",
     "publisher": "memothelemo",
     "icon": "assets/logo/index.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
